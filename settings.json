@@ -1,0 +1,79 @@
+{
+  // * editor
+  "editor.inlineSuggest.enabled": true,
+  "editor.minimap.enabled": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.mouseWheelZoom": true,
+  "editor.lineNumbers": "interval",
+  // "editor.renderWhitespace": "all",
+  "editor.emptySelectionClipboard": false,
+  "editor.linkedEditing": true,
+  // !! experimental
+  "editor.experimental.asyncTokenization": true,
+  // workbench
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.sideBar.location": "right",
+  "workbench.layoutControl.enabled": false,
+  "workbench.startupEditor": "none",
+  "workbench.colorTheme": "Ayu Dark",
+  "workbench.iconTheme": "eq-material-theme-icons-ocean",
+  // * security
+  "security.workspace.trust.untrustedFiles": "open",
+  // * terminal
+  "terminal.integrated.env.windows": {},
+  // * source control
+  "scm.diffDecorationsGutterVisibility": "hover",
+  // * search
+  "search.defaultViewMode": "tree",
+  // * debug
+  "debug.toolBarLocation": "docked",
+  // * zen mode
+  "zenMode.hideStatusBar": false,
+  "zenMode.centerLayout": false,
+  "zenMode.hideTabs": false,
+  "zenMode.silentNotifications": false,
+  // * typescript
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  // * extensions
+  // vim
+  "vim.useCtrlKeys": false,
+  // discord
+  "discord.lowerDetailsIdling": "This guy needs to sleep!",
+  "discord.removeRemoteRepository": true,
+  // spelling
+  "cSpell.userWords": [
+    "commandlineinprogress",
+    "esbenp",
+    "tailwindcss",
+    "vercel"
+  ],
+  // !! tailwind intellisense
+  "tailwindCSS.experimental.classRegex": [
+    "([a-zA-Z0-9\\-:]+)"
+  ],
+  "terminal.integrated.env.linux": {},
+  "gitlens.mode.active": "zen",
+  "editor.scrollbar.verticalScrollbarSize": 16,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "sonarlint.rules": {
+    "typescript:S125": {
+      "level": "off"
+    },
+    "typescript:S6544": {
+      "level": "off"
+    }
+  },
+  "workbench.editor.enablePreview": false,
+  "discord.detailsIdling": "hacking your heart",
+  "discord.detailsEditing": "changing line #{current_line} ",
+  "discord.lowerDetailsEditing": "using vim btw",
+  "window.menuBarVisibility": "compact",
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "window.zoomLevel": 2,
+  "editor.fontFamily": "Fira Code",
+  "yaml.schemas": {
+    "file:///home/codespace/.vscode-remote/extensions/atlassian.atlascode-3.0.3/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+}
